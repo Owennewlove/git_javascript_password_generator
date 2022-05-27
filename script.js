@@ -16,7 +16,24 @@ function writePassword() {
 }
 
 
+function getLowerCase() {
+  return String.fromCharCode(Math.floor(Math.random()*25)+97)
+}
+
+function getUpperCase() {
+  return String.fromCharCode(Math.floor(Math.random()*25)+65)
+}
+
+function getNumericValues() {
+  return String.fromCharCode(Math.floor(Math.random()*9)+48)
+}
+
+function getSpecialCharacters() {
+  return String.fromCharCode(Math.floor(Math.random()*5)+33)
+}
+
 function generatePassword() {
+  var finalpwd = ""
   var size = prompt("Please enter a value of or between 8 to 128 to define how many characters you would like in your password")
   console.log(size)
   if (size >= 8 && size <= 128) {
@@ -30,6 +47,7 @@ function generatePassword() {
     var specialCharacters = confirm("include special characters?")
     console.log(specialCharacters)
     
+
     if (lowerCase === true) {
 
     } 
@@ -49,6 +67,8 @@ function generatePassword() {
   else {
     alert("invalid entry")
   }
+
+  return finalpwd
 
 }
 
