@@ -13,11 +13,27 @@ function writePassword() {
 
 function generatePassword() {
   var size = prompt("Please enter a value of or between 8 to 128 to define how many characters you would like in your password")
-  if  (size >= 8 && seze <= 128) {
+  console.log(size)
+  if  (size >= 8 && size <= 128) {
+    console.log
+    var lowerCase = confirm("include lowercase letters?")
+    console.log(lowerCase)
+    var upperCase = confirm("include uppercase letters?")
+    console.log(upperCase)
+    var numericValues = confirm("include numeric values?")
+    console.log(numericValues)
+    var specialCharacters = confirm("include special characters?")
+    console.log(specialCharacters)
+    if (lowerCase = true) {
+
+    }
+    else {
+
+    }
 
   }
   else {
-    alert("invalid")
+    alert("invalid entry")
   }
 
 }
