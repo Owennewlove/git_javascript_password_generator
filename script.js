@@ -32,11 +32,19 @@ function generatePassword() {
     
     if (lowerCase === true) {
 
-    }
-    else {
+    } 
+
+    if (upperCase === true) {
 
     }
 
+    if (numericValues === true) {
+
+    }
+
+    if (specialCharacters === true) {
+
+    }
   }
   else {
     alert("invalid entry")
