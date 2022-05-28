@@ -1,9 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var lowercase = "abcdefghijklmnopqrstuvwxyz"
-var uppercase = lowercase.toUpperCase()
-var number = "0123456789"
-var special = "!@#$%&*?^"
+
 
 
 
@@ -93,7 +90,9 @@ function generatePassword() {
   }
   console.log(finalpwd)
 
-  return finalpwd;
+  var shuffled = finalpwd.split('').sort(function(){return 0.5-Math.random()}).join('');
+
+  return shuffled;
 
 }
 
