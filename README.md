@@ -30,7 +30,7 @@ https://github.com/Owennewlove/git_javascript_password_generator.git
 https://owennewlove.github.io/git_javascript_password_generator/
 
     ```md
-![alt text]()
+![alt text](assets/Images/Screen%20Shot%202022-05-27%20at%208.43.35%20PM.png)
 
     ```
 
