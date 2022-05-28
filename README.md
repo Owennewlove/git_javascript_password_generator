@@ -27,7 +27,7 @@ The following link leads you to the github repository used when making this webs
 
 https://github.com/Owennewlove/git_javascript_password_generator.git
 
-https://owennewlove.github.io/git_css_html_Newlove_Owen_portfolio/
+https://owennewlove.github.io/git_javascript_password_generator/
 
 
 ## Credits
