@@ -23,26 +23,20 @@ N/A
 
 The following link leads you to the github repository used when making this website:
 
-https://github.com/Owennewlove/git_css_html_Newlove_Owen_portfolio.git
+https://github.com/Owennewlove/git_javascript_password_generator.git
 
 https://owennewlove.github.io/git_css_html_Newlove_Owen_portfolio/
 
-
-
-    ```md
-![alt text](assets/images/websiteScreenshot.png)
-
-    ```
 
 ## Credits
 
 The following are links referenced when code refactoring this website. 
 
-W33 schools 
- 1. https://www.w3schools.com/html/html5_semantic_elements.asp
+Stack Overflow
+ 1. https://stackoverflow.com/questions/3943772/how-do-i-shuffle-the-characters-in-a-string-in-javascript
 
-Full stack blog
- 1. https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+This linked helped me to create a shuffle event for the final password
+
 
 
 ## License
