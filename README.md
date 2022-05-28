@@ -2,9 +2,11 @@
 
 ## Description
 
-I created a portfolio that resembled the one given to us as the example. This portfolio utilized flex properties, semantic elements in the html, and media queries in the css that were new skills learned for this project. Although more than the previously stated was used to create this site, these skills had been demonstrated in the previous homework. 
+I used Javascript to create functions, display prompts/confirms, and to use a for loop with if statements contained within it. The functions allowed me to randomly select uppercase letters, lowercase letters, special characters, and numbers. The prompt allowed a length of specified value to be created. The confirms created boolean values for the if statements to check. The for loop allowed me to repeat the process of checking the if statements until a satisfactory password length was obtained. The if statements within the for loop called upon the functions that selected the characters and placed them within the generated password. 
 
-The portfolio contains my picture, facts about me, my contact information, and a link to my previously refactored site. This portfolio will serve as a baseline, when reworking it in the future to have better structure and more user interactive elements. 
+The goal was to make a fully functioning randomized password generator that displayed prompts when the generate password button was clicked. This result was obtained through the process above.  
+
+
 
 
 ## Table of Contents
